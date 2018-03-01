@@ -13,31 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Restoran_Application
+namespace Restoran_Application.Page_Screens
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for AddFoodItems.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class AddFoodItems : Page
     {
-        public MainWindow()
+        public AddFoodItems()
         {
             InitializeComponent();
-        }
-
-        private void AddItems_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
-
-        private void PlaceNewOrder_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void UpdateOrder_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
